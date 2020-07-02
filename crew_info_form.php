@@ -19,24 +19,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     else{
         echo "error!!!";
     }
-    // $sqll =" SELECT `Name`, `PF number`, `Badge number`, `Bus number`, `Route number`, `Date/ Time` FROM `crewform` WHERE 1)";
-    // $db = mysql_select_db("KSRTC Form", $configure-form);
-    // $query = mysql_query("select * from crewform");
-    // mysql_select_db('test_db'); 
-    // $resultt = mysqli_query($link,$sqll); 
-    // if($resultt == true){
-    //     echo "submittedddd";
-    // }
-    // else{
-    //     echo "errorrrr!!!";
-    // }
-    // while($row = mysql_fetch_assoc($resultt)) {
-    // echo "EMP ID :{$row['Name']}  <br> ".
-    // "EMP NAME : {$row['PF number']} <br> ".
-    // "EMP SALARY : {$row['Badge number']} <br> ".
-    // "--------------------------------<br>";
-    // }
-
+  
  }
 
 ?>

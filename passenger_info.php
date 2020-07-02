@@ -20,7 +20,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
     if($result == true){
       echo '<script>alert("Thank you!!")</script>';  
-      echo '<script>window.location="passenger_info.php"</script>'; 
+      echo '<script>window.location="passenger_sucess.php"</script>'; 
     }
 
     else{
